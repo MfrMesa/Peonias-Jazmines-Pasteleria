@@ -1,0 +1,29 @@
+@import url(font.css);
+
+.recetasFooter {
+    display: flex;
+    flex-direction: column;
+    width: 18.75rem;
+    height: 28.12rem;
+}
+
+.downRecetas {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 0.5rem;
+}
+
+
+@media (max-width: 768px){
+
+    .recetasFooter{
+        margin-top: 0;
+        margin-left: -2rem;
+        align-items: center;
+        justify-content: center;
+    }
+}

@@ -1,0 +1,40 @@
+@import url(font.css);
+
+
+.contenedorDescripcion{
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1rem;
+    width: 20rem;
+    height: 18rem;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #F5BA75, #F4E3EB) 1;
+    padding-inline: 1rem;
+    background-color: rgb(247, 237, 237);
+}
+
+
+.tartaDescripcion{
+    font-family: "Inria Serif", serif;
+    font-size: 1.3rem;
+    border-bottom: ridge 2px #F5BA75; 
+    font-weight: 600;
+}
+
+
+.parrafoTitulo{
+    font-family: "Inria Serif", serif;
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+
+.descripcion{
+    font-family: "Inria Serif", serif;
+    font-size: 0.9rem;
+    font-weight: 500;
+    text-align: justify;
+    color: #d7768d;
+}

@@ -1,0 +1,225 @@
+@import url(font.css);
+
+form{
+    width: 100%;
+}
+
+.saboresContainer{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    gap: 3rem;
+    margin-bottom: 3rem;
+    width: 100%;
+    justify-content: space-between;
+}
+
+
+.listaBizcochosContainer,
+.listaButtercreamContainer,
+.listaTamañoContainer{
+    width: 250px;
+}
+
+
+.formulario {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    align-items: flex-start;  
+    justify-content: center;
+    height: 500px;
+    gap: 2rem;
+}
+
+
+.titleContainer{
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #F5BA75, #F4E3EB) 1;
+    display: flex;
+    align-items: center;
+    justify-content: first baseline;
+    width: 250px;
+    height: 100%;
+    margin-bottom: 1rem;
+    position: relative;
+}
+
+.chevronClick{ 
+    width: 35px;
+    height: 35px;
+    margin-bottom: 0.5rem;
+    margin-left: 2rem;
+    transform: rotate(271deg);
+}
+
+.listaContainer{
+    position: absolute;
+    width: 250px;
+    border: 1px solid #B62547;
+    z-index: 2;
+    height: fit-content;
+    background-color: white;
+    margin-top: -1rem;
+    border-radius: 2px;
+    transition: opacity  ease-in-out 0.2s;
+}
+
+
+.listaItem{
+    list-style: none;
+    line-height: 1.8;
+    margin-left: 1rem;
+    font-family: "Inria Serif";
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+.listaItem:hover{
+    color: #B62547;
+}
+
+
+.inputs {
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #F5BA75, #F4E3EB) 1;
+    width: 100%;
+    height: 60%;
+    background-color: white;
+}
+
+.inputs:focus {
+    outline:#991646;
+    color: #991646;
+    background-color: white;
+}
+
+.inputs::placeholder {
+    color:#bd7683;
+}
+
+textarea::placeholder{
+    color:#bd7683;
+}
+
+textarea{
+    border: none;
+    width: 100%;
+    height: 85%;
+}
+
+.wrapperinput1{
+    width: 100%;
+    height: 100%;
+    grid-column: 1/3;
+    grid-row: 1;
+}
+
+
+.wrapperinput2{
+    width: 100%;
+    height: 100%;
+    grid-column: 3/5;
+    grid-row: 1;
+}
+
+.wrapperinput3{
+    width: 100%;
+    height: 100%;
+    grid-column: 1/3;
+    grid-row: 2;
+}
+
+
+.wrapperinput4{
+    width: 100%;
+    height: 100%;
+    grid-column:  3/5;
+    grid-row: 2;
+}
+
+.wrapperinput5{
+    width: 100%;
+    height: 100%;
+    grid-column: 1/3;
+    grid-row: 3;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #F5BA75, #F4E3EB) 1;
+}
+
+
+.wrapperinput6{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    grid-column: 3/5;
+    grid-row: 3;
+    cursor: pointer;
+    position: relative;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #F5BA75, #F4E3EB) 1;
+}
+
+.wrapperinput6 input[type="file"] {
+    width: 100%;
+    height: 100%;
+    opacity: 1;
+    position: absolute;
+    cursor: pointer;
+}
+
+.listcontainer{
+    width: 100%;
+    height: 100%;
+}
+
+
+.fileList{
+    list-style: none;
+    margin-left: 0.5rem;
+}
+
+.textInput{
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    margin-left: 1rem;
+}
+
+.chevron{
+    display: inline-flex;
+    width: 35px;
+    height: 35px;
+    transform: rotate(271deg);
+    margin-bottom: 0.5rem;
+    cursor: pointer;
+}
+
+
+label, p, text {
+    color: #991646;
+}
+
+.buttonContainer{
+    width: 100%;
+    display: flex;
+    justify-content: right;
+    margin-top: 4rem;
+}
+
+
+
+@media (max-width: 768px){
+
+    .saboresContainer{
+        flex-wrap: wrap;
+    }
+}

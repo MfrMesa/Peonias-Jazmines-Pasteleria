@@ -1,0 +1,84 @@
+.recetasContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 2000px;
+    padding-bottom: 3rem;
+    padding-top: 5rem;
+}
+
+.recetasHome {
+    display: inline-flex;
+    position: relative;
+    height: 600px;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin-top: 10rem;
+}
+
+
+.foto{
+    width: 37.5rem;
+    height: 37.5rem;
+    box-shadow:  2px 2px 6px 3px #e0bbc9;
+    display: inline-flex;
+    align-self: auto;
+}
+
+
+.animationleft {
+    animation-duration: 2s; 
+    animation-name: fadeInLeft; 
+    animation-range-start: cover;
+    animation-range-end: 50%;
+    animation-timing-function: ease-out; 
+}
+
+@keyframes fadeInLeft {
+    from {
+        opacity: 0; 
+        transform: translateX(-100%); 
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0); 
+    }
+}
+
+.animationright {
+    animation-duration: 2s; 
+    animation-name: fadeInRight; 
+    animation-range-start: 50%;
+    animation-range-end: cover;
+    animation-timing-function: ease-out; 
+}
+
+
+@keyframes fadeInRight {
+    from {
+        opacity: 0; 
+        transform: translateX(100%); 
+    }
+    to {
+        opacity: 1; 
+        transform: translateX(0); 
+    }
+} 
+
+
+@media (max-width: 768px){
+    .foto{
+        width: 20rem;
+        height: 18rem;
+    }
+}
+
+@media (max-width: 500px){
+    .foto{
+        width: 15rem;
+        height: 15rem;
+    }
+}

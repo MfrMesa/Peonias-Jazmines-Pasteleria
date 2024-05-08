@@ -1,0 +1,24 @@
+@import url(font.css);
+
+
+.contenedorTienda{
+    width: 100%;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    height: 140rem;
+    flex-direction: column;
+}
+
+
+.contenedor{
+    display: grid;
+    align-items: center;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(3, 1fr);
+    margin-top: 6rem;
+    gap: 4rem;
+    padding-inline: 3rem;
+}
+

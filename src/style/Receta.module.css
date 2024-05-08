@@ -1,0 +1,221 @@
+@import url(font.css);
+
+
+
+.innerContenedor{
+    margin-top: 10rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    margin-top: 4rem;
+    width: 100%;
+    height: 110rem;
+}
+
+
+.contenedorReceta{
+    display: flex;
+    flex-direction: column;
+    width: 80rem;
+    height: 90rem;
+    flex-shrink: 0;
+    border-width: 7px;
+    border-style: solid;
+    margin-top: 3rem;
+    border-image: linear-gradient(to right, #F5BA75, #F4E3EB) 1;
+}
+
+
+.foto{
+    width: 550px;
+    height: 500px;
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+
+.svgleft{
+    width: 30px;
+    height: 30px;
+    fill: #B62547;
+    margin-left: -4rem;
+}
+
+
+.svgright{
+    fill: #B62547;
+    width: 30px;
+    height: 30px;
+    transform: rotate(180deg);
+    margin-right: -4rem;
+}
+
+.receta{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 70%;
+    padding: 3rem;
+}
+
+
+.lista{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 40%;
+    height: 100%;
+}
+
+.ingredientesReceta{
+    margin-top: 2rem;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+
+.texto{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+}
+
+.descripcionReceta{
+    text-align: justify;
+    font-family: "Inria Serif", serif;
+    font-size: 13px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    margin-top: 2rem;
+    letter-spacing: 0.5px;
+    line-height: 1.5;
+}
+
+.detalles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    width: 100%;
+    height: 30%;
+    margin-left: 2rem;
+}
+
+.innerDetalles{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.svg{
+    width: 28px;
+    height: 28px;
+    fill: #B62547;
+}
+
+.timer{
+    margin-left: 0.5rem;
+    font-family: "Inria Serif", serif;
+    font-size: 15px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    width: 191px;
+    height: 20px;
+}
+
+
+.linkContenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 6rem;
+    width: 100%;
+}
+
+.nextLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 5rem ;
+}
+
+.backLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5rem;
+}
+
+
+.recetaContenedor{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.chevron{
+    width: 28px;
+    height: 28px;
+}
+
+.backLink:hover .chevron,
+.nextLink:hover .chevronrigth{
+    width: 30px;
+    height: 30px;
+}
+
+.chevronrigth{
+    transform: rotate(-179.72deg);
+    width: 28px;
+    height: 28px;
+}
+
+.back, 
+.next{
+    text-decoration: none;
+    color: #B62547;
+    text-align: center;
+    font-family: "Inria Serif", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.back:hover,
+.next:hover{
+    font-size: 20px;
+}
+
+
+.animation {
+    opacity: 0;
+    animation-duration: 2.5s;
+    animation-name: fadeIn; 
+    animation-fill-mode: forwards; 
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; } 
+    to { opacity: 1; } 
+}

@@ -1,0 +1,38 @@
+@import url(font.css);
+
+.button {
+    max-width: 11.625rem;
+    padding: 1rem;
+    height: 3.25rem;
+    border-width: 3px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #F5BA75, #F4E3EB) 1;
+    background: transparent;
+    color: #F5BA75;
+    font-family: "Inter", sans-serif;
+    font-size: 0.7rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    letter-spacing: 1px;
+
+
+}
+
+.button:hover {
+    background-color: #22757b;
+    box-shadow: rgba(200, 38, 38, 0.2) 0 3px 15px inset, rgba(0, 0, 0, .1) 0 3px 5px, rgba(0, 0, 0, .1) 0 10px 13px;
+    transform: scale(1.05);
+}
+
+
+@media (max-width: 768px){
+
+    .button{
+        width: 9rem;
+    }
+}

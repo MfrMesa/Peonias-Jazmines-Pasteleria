@@ -1,0 +1,60 @@
+@import url(font.css);
+
+
+.contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 36.5rem;
+    height: 25rem;
+    background-color: white;
+    z-index: 1;
+    margin-right: -3rem;
+    border-width: 8px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #F5BA75, #F4E3EB) 1;
+}
+
+.descripcion {
+    margin-top: 1.5rem;
+    line-height: 1.5;
+    width: 100%;
+    text-align: center;
+    font-size: 14px;
+    padding-inline: 3rem;
+    height: 100%;
+}
+
+.link {
+    text-decoration: none;
+    color: #c75c6f;
+}
+
+.fecha {
+    margin-top: 2rem;
+    font-size: 14px;
+    color:  #991646;
+}
+
+@media (max-width: 768px){
+
+    .contenedor{
+        width: 45rem;
+    }
+
+    .descripcion{
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 560px){
+
+    .contenedor{
+        width: 40rem;
+    }
+
+    .descripcion{
+        font-size: 10px;
+    }
+}

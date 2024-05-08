@@ -1,0 +1,45 @@
+@import url(font.css);
+
+.contactoFooter {
+    display: flex;
+    flex-direction: column; 
+    width: 21.8rem;
+    height: 22.5rem;
+}
+
+
+.downcontacto {
+    display: flex;
+    height: 100%;
+    width: 100%;
+    align-self: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 1.5rem;
+    font-family: "Inria Serif", serif;
+    font-size: 20px;
+    font-weight: 700;
+}
+
+
+.email, 
+.direccion,
+.telefono {
+    color: #FFF;
+    font-family: "Inria Serif", serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.8;
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px){
+
+    .contactoFooter{
+        margin-bottom: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+}

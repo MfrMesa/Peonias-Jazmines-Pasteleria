@@ -1,0 +1,68 @@
+@import url(font.css);
+
+.divisorReserva {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 15rem;
+    background-image: url(/src/img/divisor.png);
+    background-position: center;
+    background-repeat: no-repeat ;
+    background-size: cover;
+	transform: scale(1);
+	animation: pulse 3s infinite;
+}
+
+@keyframes pulse {
+	0% {
+		transform: scale(0.98);
+		box-shadow: 0 0 0 0 #22757b;
+	}
+
+	70% {
+		transform: scale(1);
+		box-shadow: 0 0 0 10px #22757b;
+	}
+
+	100% {
+		transform: scale(0.98);
+		box-shadow: 0 0 0 0 #22757b;
+	}
+}
+
+.divisorReserva:hover{
+    filter:opacity(0.8);
+}
+
+.divisorReserva:hover .reservaDivisorTitulo{
+    color: #B62547;
+}
+
+.reservaDivisorTitulo {
+    color: #FFF;
+    text-align: center;
+    font-family: "Inria Serif", serif;
+    font-size: 60px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: 4px;
+}
+
+.reservaDivisor {
+    text-decoration: none;
+}
+
+
+@media (max-width: 768px){
+
+    .divisorReserva{
+        height: 10rem;
+    }
+
+    .reservaDivisorTitulo{
+        font-size: 3rem;
+    }
+}

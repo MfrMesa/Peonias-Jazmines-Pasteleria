@@ -1,0 +1,47 @@
+@import url(font.css);
+
+
+.navMenu {
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    width: 100%;
+    height: 100px;
+    flex-direction: row;
+}
+
+.navBar {
+    display: inline-flex;
+    align-items: center;
+    justify-content: right;
+    list-style: none;
+    width: 100%;
+    height: 100%;
+    padding-right: 2rem;
+}
+
+.navLinks{
+    font-family: "Inter", sans-serif;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    margin-right: 3rem;
+    background: linear-gradient(180deg, #F5BA75 0%, #F4E3EB 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.navLinks:hover{
+    border-bottom: 2px solid #f49f38 ;
+}
+
+
+@media (max-width: 768px){
+
+    .navMenu{
+        display: none; 
+    }
+}

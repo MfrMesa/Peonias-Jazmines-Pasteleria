@@ -1,0 +1,60 @@
+@import url(font.css);
+
+
+
+.innerContenedor{
+    display: flex;
+    flex-direction: column;
+}
+
+
+.linkContenedor{
+    margin-top: 9rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.backLink,
+.nextLink{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.chevron{
+    width: 28px;
+    height: 28px;
+}
+
+.backLink:hover .chevron,
+.nextLink:hover .chevronrigth{
+    width: 30px;
+    height: 30px;
+}
+
+.chevronrigth{
+    transform: rotate(-179.72deg);
+    width: 28px;
+    height: 28px;
+}
+
+.back, 
+.next{
+    text-decoration: none;
+    color: #B62547;
+    text-align: center;
+    font-family: "Inria Serif", sans-serif;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+.back:hover,
+.next:hover{
+    font-size: 20px;
+}

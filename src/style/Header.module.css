@@ -1,0 +1,105 @@
+@import url(font.css);
+
+*{    
+    margin: 0px;
+    padding: 0;
+    font-size: 16px;
+    font-weight: 500;
+    font-family: "Inria Serif", serif;
+    color: #612331;
+    box-sizing: border-box;
+}
+
+.headerContenedor{
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows: 20% 50% 30%;
+    width: 100%;
+    height: 43rem;
+    background: #22757b;
+    border: white solid 10px;
+}
+
+
+.textoContenedor {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column ;
+    margin-top: 2rem;
+    grid-column: 2;
+    grid-row: 2;
+    height: 100%;
+}
+
+.navbarContenedor{
+    grid-row: 1;
+    grid-column: 2;
+}
+
+
+.bannerContenedor{
+    grid-row: 1/4;
+    grid-column: 1;
+}
+
+.title{
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #F5BA75;
+    background-clip: text;
+    background: linear-gradient(90deg, #BE4C6C 8%, #FFC446 53%, #EF8F32 89%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Inter", sans-serif;
+    font-size: 5rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 0.4rem;
+    letter-spacing: 6.4px;
+
+}
+
+.subTitle{
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: #F5BA75;
+    background-clip: text;
+    background: linear-gradient(90deg, #BE4C6C 8%, #FFC446 53%, #EF8F32 89%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: "Inter", sans-serif;
+    font-size: 2.5rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.4rem;
+}
+
+.buttonContainer{
+    display: inline-flex;
+    align-items: end;
+    justify-content: center;
+    margin-bottom: 2rem;
+    gap: 3rem;
+    grid-column: 2;
+    grid-row: 3;
+}
+
+
+@media (max-width:768px){
+
+    .headerContenedor{
+        height: 30rem;
+        display: flex;
+        flex-direction: column;
+    } 
+
+
+    .title{
+        font-size: 3rem;
+    }
+
+    .subTitle{
+        font-size: 1rem;
+    }
+}

@@ -1,0 +1,64 @@
+@import url(font.css);
+
+
+.carrito{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-direction: column;
+    width: 80%;
+    height: 50%;
+    margin: 3rem;
+}
+
+.resumen{
+    font-weight: 900;
+    font-size: 1.25rem;
+}
+
+.labels{
+    background: #B62547;
+    width: 15rem;
+    border: none;
+    height: 2.75rem;
+    color: white;
+    font-weight: 500;
+    font-family: "Inter";
+    letter-spacing: 0.5px;
+    z-index: 1;
+}
+
+.inputs{
+    margin-right: 0.5rem;
+    position: absolute;
+    opacity: 0;
+}
+
+.text{
+    color: #991646;
+}
+
+
+.pedidoDetalles{
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+    flex-direction: column;
+    gap: 3rem;
+    margin: 2rem 2rem 2rem 0rem; 
+}
+
+.detalles{
+    display: inline-flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.pago{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-top: 2rem;
+}
+

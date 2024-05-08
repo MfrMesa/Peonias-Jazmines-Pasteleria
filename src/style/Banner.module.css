@@ -1,0 +1,38 @@
+@import url(font.css);
+
+.imgcontenedor {
+    display: flex;
+    align-items: flex-end;
+    justify-content: left;
+    height: 100%;
+}
+
+.fondoCakeHeader {
+    animation-name: foto;
+    animation-duration: 17000ms;
+    animation-iteration-count: infinite;
+    mask-image: linear-gradient(white 80%, transparent);
+    width: 90%;
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+
+@keyframes foto{
+    0% {background-image:url(/src/img/tarta40.png);}
+    25% {background-image:url(/src/img/tarta70.png);} 
+    50% {background-image:url(/src/img/tarta50.png)}
+    100% {background-image:url(/src/img/tarta33.png);}
+}
+
+
+@media (max-width: 768px){
+
+    .imgcontenedor{
+        width: 100%;
+        background-repeat: no-repeat;
+        height: 100%;
+        
+}
+
+} 

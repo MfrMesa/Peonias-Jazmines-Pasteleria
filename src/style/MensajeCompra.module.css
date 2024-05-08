@@ -1,0 +1,44 @@
+@import url(font.css);
+
+
+
+.contenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 50rem;
+}
+
+
+.mensaje{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    flex-direction: column;
+    width: 45rem;
+    height: 35rem;
+    border-width: 4px;
+    border-style: solid;
+    border-image: linear-gradient(to right, #F5BA75, #F4E3EB) 1;
+}
+
+
+.contenedor button{
+    border: none;
+    background: transparent;
+    align-self: flex-end;
+    margin: 1rem;
+    margin-bottom: 2rem;
+
+}
+
+.closeButton{
+    width: 25px;
+}
+
+
+.cake{
+    width: 300px;
+    height: 300px;
+}

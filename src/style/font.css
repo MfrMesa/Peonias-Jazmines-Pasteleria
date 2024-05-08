@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Inria+Serif:ital,wght@0,300;0,400;0,700;1,300;1,400;1,700&family=Inter:wght@100..900&family=Jacques+Francois&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Courgette&display=swap');
+
+
+@font-face {
+  font-family: 'Great Mango';
+  src: url('GreatMango-Regular.eot');
+  src: local('Great Mango Regular'), local('GreatMango-Regular'),
+      url('GreatMango-Regular.eot?#iefix') format('embedded-opentype'),
+      url('GreatMango-Regular.woff2') format('woff2'),
+      url('GreatMango-Regular.woff') format('woff'),
+      url('GreatMango-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+
+
+.courgette-regular {
+  font-family: "Courgette", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+.jacques-francois-regular {
+    font-family: "Jacques Francois", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  .inria-serif-light {
+    font-family: "Inria Serif", serif;
+    font-weight: 300;
+    font-style: normal;
+  }
+  
+  .inria-serif-regular {
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  .inria-serif-bold {
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+  
+  .inria-serif-light-italic {
+    font-family: "Inria Serif", serif;
+    font-weight: 300;
+    font-style: italic;
+  }
+  
+  .inria-serif-regular-italic {
+    font-family: "Inria Serif", serif;
+    font-weight: 400;
+    font-style: italic;
+  }
+  
+  .inria-serif-bold-italic {
+    font-family: "Inria Serif", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  
+
+
+.inter {
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-weight:900;
+  font-style: normal;
+  font-variation-settings:
+    "slnt" 0;
+}

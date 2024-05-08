@@ -1,0 +1,34 @@
+@import url(font.css);
+
+.reservaContenedor{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    height: 80rem;
+    gap: 3rem;
+}
+
+.formularioContenedor {
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    flex-direction: column;
+    width: 80%;
+    height: fit-content;
+    min-height: 60rem;
+    border: 10px solid transparent;
+    border-image:url(/src/img/divisor.png) 30 round; 
+    padding-inline: 4rem;
+    gap: 1.5rem;
+}
+
+
+@media (max-width: 768px){
+
+    .reservaContenedor{
+        gap:0;
+        margin-top: 2rem;
+    }
+}
