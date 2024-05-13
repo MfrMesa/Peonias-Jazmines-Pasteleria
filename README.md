@@ -1,9 +1,9 @@
 # Peonias-Jazmines-Pasteleria
 
-Desde la concepción hasta la implementación, lideré y materialicé el proyecto utilizando diversas herramientas y tecnologías. Comencé con el diseño en Figma, donde creé los esquemas y prototipos necesarios para la interfaz de usuario. Luego, trasladé estos diseños a una aplicación React utilizando Vite como entorno de desarrollo rápido.
+From conception to implementation, I led and realized the project using various tools and technologies. I began with design in Figma, where I created the necessary wireframes and prototypes for the user interface. Then, I translated these designs into a React application using Vite as a rapid development environment.
 
-Para garantizar una experiencia fluida y adaptable en diferentes dispositivos, me enfoqué en desarrollar estilos CSS. Además de la funcionalidad básica, integré bibliotecas como Email.js para la gestión de formularios, Slick para implementar un slider suave y atractivo y Stripe como pasarela de pago.
+To ensure a smooth and adaptable experience across different devices, I focused on developing CSS styles. In addition to basic functionality, I integrated libraries like Email.js for form management, Slick for implementing a smooth and appealing slider, and Stripe as a payment gateway.
 
-En cuanto a la gestión de datos, opté por simular una base de datos utilizando mocks de arrays. Esto nos permitió desarrollar y probar la aplicación sin depender de una infraestructura de base de datos completa.
+Regarding data management, I chose to simulate a database using array mocks. This allowed me to develop and test the application without relying on a complete database infrastructure.
 
-En resumen, el proyecto fue un esfuerzo integral que abarcó desde la planificación inicial hasta la implementación final, utilizando una combinación de diseño centrado en el usuario y desarrollo ágil de software para lograr resultados sobresalientes.
+In summary, the project was a comprehensive effort spanning from initial planning to final implementation, using a combination of user-centered design and agile software development to achieve outstanding results.
