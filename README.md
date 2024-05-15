@@ -7,3 +7,22 @@ To ensure a smooth and adaptable experience across different devices, I focused 
 Regarding data management, I chose to simulate a database using array mocks. This allowed me to develop and test the application without relying on a complete database infrastructure.
 
 In summary, the project was a comprehensive effort spanning from initial planning to final implementation, using a combination of user-centered design and agile software development to achieve outstanding results.
+
+# Tech Stack:
+  CSS </br>
+  REACT </br>
+  FIGMA </br>
+  
+# How to initiate the project:
+
+1) Download the Files:
+   Download the game source code from the GitHub repository or clone it using Git.
+
+2) Install Dependencies:
+   Once downloaded, navigate to the project directory in your terminal and install all dependencies using the command npm install.
+
+3) Start the Development Server:
+   After installing dependencies, start the development server by running npm run dev in the terminal.
+
+4) Open in Browser:
+   Once the development server is running, open your web browser and navigate to localhost:5177 to view the project.
