@@ -16,7 +16,7 @@ In summary, the project was a comprehensive effort spanning from initial plannin
 # How to initiate the project:
 
 1) Download the Files:
-   Download the game source code from the GitHub repository or clone it using Git.
+   Download the source code from the GitHub repository or clone it using Git.
 
 2) Install Dependencies:
    Once downloaded, navigate to the project directory in your terminal and install all dependencies using the command npm install.
