@@ -1,4 +1,4 @@
-# Peonias-Jazmines-Pasteleria
+# Peonias & Jazmines Pasteleria
 
 From conception to implementation, I led and realized the project using various tools and technologies. I began with design in Figma, where I created the necessary wireframes and prototypes for the user interface. Then, I translated these designs into a React application using Vite as a rapid development environment.
 
