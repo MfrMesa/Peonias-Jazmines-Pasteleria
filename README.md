@@ -11,6 +11,7 @@ In summary, the project was a comprehensive effort spanning from initial plannin
 # Tech Stack:
   CSS </br>
   REACT </br>
+  JAVASCRIPT </br>
   FIGMA </br>
   
 # How to initiate the project:
